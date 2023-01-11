@@ -1,0 +1,11 @@
+{
+  "development": {
+    "serverUrl": "http://localhost:3000"
+  },
+  "test": {
+    "serverUrl": "http://localhost:3000"
+  },
+  "production": {
+    "serverUrl": ""
+  }
+}

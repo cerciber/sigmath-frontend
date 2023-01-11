@@ -1,0 +1,22 @@
+{
+  "source": {
+    "include": ["./src"],
+    "includePattern": ".+\\.(vue|js)$"
+  },
+  "plugins": ["node_modules/jsdoc-vuejs", "jsdoc-http-plugin"],
+  "templates": {
+    "cleverLinks": true,
+    "monospaceLinks": true
+  },
+  "opts": {
+    "encoding": "utf8",
+    "destination": "./docs/",
+    "recurse": true,
+    "verbose": true
+  },
+  "tags": {
+    "allowUnknownTags": true,
+    "dictionaries": ["jsdoc", "closure"]
+  },
+  "sourceType": "module"
+}
