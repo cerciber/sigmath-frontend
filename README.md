@@ -1,18 +1,5 @@
-# Sigmath
+# sigmath-frontend
 
-> A Vue.js project
+🔢 Sigmath is a web platform that intends to establish a close connection between computing and mathematics, allowing users to create, share, use and manipulate custom functional mathematical modules to solve real-world problems naturally and automatically in community 🤼.
 
-## Build Setup
-
-``` bash
-# install dependencies
-npm install
-
-# serve with hot reload at localhost:8080
-npm run dev
-
-# build for production with minification
-npm run build
-```
-
-For detailed explanation on how things work, consult the [docs for vue-loader](http://vuejs.github.io/vue-loader).
+📝 I completely defined and directed this project and together with a team of 5 people we created a first functional version of the platform developing a REST-API with Node.js and sequelize (postgreSQL), and a Web Application with Vue.js 🌐.
